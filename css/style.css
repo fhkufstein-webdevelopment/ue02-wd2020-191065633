@@ -7,6 +7,73 @@ body {
     margin:0;
     padding:0;
 }
+.mainNavi{
+    position: relative;
+    width: 990px;
+    margin: 20px auto;
+}
+.mainNavi ul{
+    margin: 0 auto;
+    list-style: none;
+}
+.mainNavi ul li{
+    float: left;
+    margin: 0 0 0 20px;
+}
+.mainNavi ul ul{
+    position: absolute;
+    top: 30px;
+    padding: 0;
+    margin: 0;
+}
+.mainNavi ul ul li {
+    float: none;
+    margin: 0;
+}
+.mainNavi ul ul{
+    top: -9999px;
+}
+.mainNavi ul li:hover ul{
+top: 30px;
+}
+.mainNavi{
+    font-family: "FontAwesome", sans-serif;
+}
+.mainNavi ul li {
+    line-height: 40px;
+}
+.mainNavi ul li a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.mainNavi ul ul{
+    margin: 0;
+    -webkit-box-shadow: 0 10px 20px #888;
+    -moz-box-shadow: 0 10px 20px #888;
+    box-shadow: 0 10px 20px #888;
+}
+.mainNavi ul ul li{
+    float: none;
+    font-size: 16px;
+    padding: 5px 10px;
+    text-align: left;
+    margin: 0;
+    line-height: 20px;
+}
+.mainNavi ul ul li:hover{
+    color: #f8f9fa;
+    background: #337ab7;
+}
+
+.mainNavi ul ul a{
+    color: #337ab7;
+    text-decoration: none;
+}
+.mainNavi ul ul a:hover{
+    color: #f8f9fa;
+}
+/* Um die navigations Leiste dorthin zu setzen wo ich sie haben will muss ich margin & padding verwenden?  */
+
 
 .logo {
     font-size:30px;
